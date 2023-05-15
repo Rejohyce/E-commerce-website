@@ -13,7 +13,7 @@
                 crossorigin="anonymous"
             />
 </head>
-<body class="min-h-screen bg-slate-50 text-white">
+<body class="min-h-screen bg-slate-50 text-white box-border ">
     <section class="bg-cover bg-[url('/image/fashion1.jpg')] pb-36 text-opacity-100  bg-neutral-900 opacity-90 relative">
         <main class="flex justify-between">
             <div>
@@ -50,11 +50,11 @@
             </div>
         </div>
     </section> 
-    <dapibus class="flex justify-between p-12 pt-24">
+    <dapibus class="flex justify-between p-10 pt-24">
         <questions class="text-black pl-11">
             <div class="pb-10">
                 <h1 class="font-semibold text-4xl">GOT QUESTIONS</h1>
-                <p class="text-lg opacity-50">
+                <p class="text-md opacity-60">
                     <br>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu 
                     <br>in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
                     <br>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
@@ -70,10 +70,36 @@
                 <label for="subject">Subject</label>
                 <input type="text" id="subject" name="subject" placeholder="Enter subject..." required class="w-full h-12 mb-8 rounded-md outline-0 border-0 block">
                 <label for="message">Message</label>
-                <textarea name="message" id="message " class="w-full h-32 rounded-md outline-0 border-0 block "></textarea>
-                <button type="submit" class="w-16 h-28 bg-gray-600 hover:bg-black transition-all 5s ease-in-out mt-8">Send</button>
+                <textarea name="message" id="message " class="w-full h-32 rounded-lg outline-0 border-0 block mb-8" rows="6"></textarea>
+                <button type="submit" class="w-28 text-center text-white h-12 bg-black transition-all duration-75 ease-in-out hover:bg-blue-800 mt-8 rounded-sm block">Send</button>
             </div>
         </questions>
+        <cards class="block mr-20">
+            <div class="bg-white rounded-xl h-80 w-96 shadow-gray-400 shadow-2xl pt-10 pb-10">
+                <div class="text-black ml-16 pt-5">
+                    <h1 class="font-medium text-2xl pb-4">Quick Links</h1>
+                    <div class="block">
+                    <a href="index.html" class="block">Home</a>
+                    <a href="shop.html" class="block">Shop</a>
+                    <a href="lookbook.html" class="block">Lookbook</a>
+                    <a href="aboutus.html" class="block">About Us</a>
+                    <a href="contactus.html">Contact Us</a>
+                </div>
+                </div>
+            </div> 
+            <div class="bg-white rounded-xl h-80 w-96 shadow-gray-400 shadow-2xl mt-16 pt-10 pb-10">
+                <div class="text-black ml-16 pt-5">
+                    <h1 class="font-medium text-2xl pb-4">Latest</h1>
+                    <div class="block">
+                    <a href="contactus.html" class="block">Women’s Short</a>
+                    <a href="contactus.html" class="block">Bags</a>
+                    <a href="contactus.html" class="block">Men's Jeans</a>
+                    <a href="contactus.html" class="block">Women’s Shirt</a>
+                    <a href="contactus.html">Acessories</a>
+                </div>
+                </div>
+            </div>
+        </cards>
     </dapibus>
 </body>
 </html>
