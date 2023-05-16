@@ -690,6 +690,10 @@ video {
   margin-top: 2rem;
 }
 
+.mr-14 {
+  margin-right: 3.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
