@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous"
+/>
+</head>
+<body class="min-h-screen bg-slate-100">
+    <section class="bg-black text-white bg-blend-darken">
+        <main class="flex justify-between">
+            <div>
+                <img src="/image/site-logo-white-free-img.png" class="text-3xl m-9">
+            </div>
+            <nav class="flex justify-between">
+                <ul class="flex justify-between align-middle font-bold space-x-9 m-10">
+                    <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                        <a href="shop.html">SHOP</a>
+                    </li>
+                        <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                        <a href="lookbook.html">LOOKBOOK</a>
+                    </li>
+                        <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                        <a href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                            <a href="contactus.html">CONTACT US</a>
+                        </li>
+                        <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                        <a href="#cart.html">🛒</a>
+                    </li>
+                </ul>
+            </nav>
+        </main> 
+        </section>
+        <out class="p-11 pt-16 flex space-x-20">
+            <div class="p-16 bg-white flex space-x-24 justify-between">
+                <div class="">
+                    <h1 class="text-4xl font-semibold pb-10">CHECKOUT</h1>
+                    <form action="">
+                <label for="info" class="font-medium text-lg">Customer Information (Required)</label>
+                <input type="text" id="info" name="info" placeholder="Username or Email*" required class="w-full mb-8 h-12 mt-4 rounded-md outline-none outline-slate-400 outline-1 border-gray-300 block">
+                <label for="bill" class="font-medium text-lg">Billing Details (Required)</label>
+                <input type="text" id="bill" name="bill" placeholder="Firstname*" required class="w-full h-12 mt-4 mb-8 rounded-md border-0  outline-none outline-slate-400 outline-1">
+                <input type="text" id="bill" name="bill" placeholder="Lastname*" required class="w-full h-12 mb-8 rounded-md  outline-none outline-slate-400 outline-1 border-0 block">
+                <input type="text" id="bill" name="bill" placeholder="Company*" required class="w-full h-12 mb-8 rounded-md  outline-none outline-slate-400 outline-1 border-0 block">
+                <select name="country" id="country" class="w-full mb-8 h-12 rounded-md border-gray-300 block  outline-none outline-slate-400 outline-1">
+                    <option value="nigeria">Nigeria</option>
+                    <option value="Usa">Usa</option>
+                    <option value="Korea">Korea</option>
+                    <option value="China">Dubia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="NYC">NYC</option>
+                    <option value="india">India</option>
+                    <option value="thialand">Thialand</option>
+                    <input type="text" id="bill" name="bill" placeholder="House Adress*" required class="w-72 h-12 mb-8 rounded-md  outline-none outline-slate-400 outline-1 border-0">
+                    <input type="text" id="apt" name="apt" placeholder="Apartment, Suit, Unit*" required class="w-72 h-12 mb-8 rounded-md ml-10 outline-none outline-slate-400 outline-1 border-0">
+                    <div class="flex space-x-11">
+                    <input type="text" id="bill" name="bill" placeholder="Town or City*" required class="w-72 h-12 mb-8 rounded-md  outline-none outline-slate-400 outline-1 border-0">
+                    <select name="state" id="state" aria-placeholder="Town/City" class="w-72 mb-8 h-12 rounded-md  outline-none outline-slate-400 outline-1 border-gray-300">
+                        <option value="Abia">Abia</option>
+                        <option value="abuja">Abuja</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="ilorin">Ilorin</option>
+                        <option value="ibadan">Ibadan</option>
+                        <option value="Kogi">Kogi</option>
+                        <option value="Ekiti">Ekiti</option>
+                        <option value="Osun">Osun</option>
+                </select>
+            </div>
+                <input type="tel" id="num" name="num" placeholder="090-218-286-54" required class="w-full h-12 mb-8 rounded-md  outline-none outline-slate-400 outline-1 border-0 block">
+                    </form>
+                    <label for="coupon">Have a Coupon?</label>
+                    <div class="flex space-x-10 pt-4 text-lg font-medium">
+                    <input type="text" id="coupon" name="coupon" placeholder="Coupon*" required class="w-96 h-12 mb-8 rounded-md block outline-none outline-slate-400 outline-1 border-0">
+                    <button class="w-56 h-14 align-middle pb-2 text-lg text-white rounded-lg text-center bg-slate-700 transition-all duration-150  ease-in-out hover:bg-black">
+                        <a href="/">Apply</a>
+                    </button>
+                </div>
+                <button class="w-full h-16 align-middle pb-2 text-lg text-white rounded-lg text-center bg-slate-700 transition-all duration-150  ease-in-out hover:bg-black">
+                    <a href="shop.html">PLACE ORDER $2000,000</a>
+                </button>
+                </div>
+                <div class="sticky top-1">
+                    <h1 class="text-3xl font-semibold pb-7">YOUR ORDER</h1>
+                    <table class="text-left text-md outline-none outline-1 outline-slate-400 h-screen w-96">
+                        <thead class="border-b bg-gray-300 font-medium">
+                            <tr>
+                                <th scope="col" class="px-6 py-2">Product</th>
+                                <th scope="col" class="px-6 py-2">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody class="mt-7 space-x-8">
+                            <tr  class="border-b">
+                                <th class="pl-2"><img src="/image/product-m-jeans1-600x600.jpg" alt="" class="w-16">Dark brown Jeans 2</th>
+                                <th class="pl-10">$390.00</th>
+                            </tr>
+                            <tr  class="border-b">
+                                <th class="pl-2"><img src="/image/lgg.jpg" alt="" class="w-16">Women's Jeans 2</th>
+                                <th class="pl-10">$390.00</th>
+                            </tr>
+                            <tr  class=" border-b">
+                                <th class="pl-2"><img src="/image/blue.jpg" alt="" class="w-16">Accesories 2</th>
+                                <th class="pl-10">$390.00</th>
+                            </tr>
+                            <tr  class="border-b pb-14">
+                                <th class="pl-2">Subtotal</th>
+                                <th class="pl-10">$2000,00</th>
+                            </tr>
+                            <tr  class="border-b pb-14">
+                                <th class="pl-2">Shipping</th>
+                                <th class="pl-10">Flat Rate</th>
+                            </tr>
+                            <tr  class="pb-14">
+                                <th class="pl-2">Total</th>
+                                <th class="pl-10">$2000,00</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </out>
+        <footer class="bg-black text-white flex justify-between p-11 text-1xl dark:bg-black dark:text-white">
+            <div>
+                <img src="/image/site-logo-white-free-img.png" class="pt-14  dark:font-bold">
+                <p>
+                    <br>ipsum dolor sit,
+                    <br>amet consectetur 
+                    <br>adipiscing elit. Ut elit 
+                    <br>tellus, luctus nec 
+                    <br>ullamcorper mattis, 
+                    <br>pulvinar dapibus leo.
+                </p>
+            </div>
+            <div>
+                <h2 class="pb-4 pt-14">SHOP COLLECTIONS</h2>
+                <p>   
+                    <br>Men’s Jeans
+                    <br>Women’s Tops
+                    <br> Hoodies
+                    <br>Jackets
+                    <br>Shoes
+                </p>
+            </div>
+            <div>
+                <h2 class="pb-4 pt-14">LATEST COLLECTION</h2>
+                <p>   
+                    <br>Bags
+                    <br>Accessories
+                    <br> Shorts
+                    <br>Wallets
+                    <br>Sunglasses
+                </p>
+            </div>
+            <div>
+                <h2 class="pb-4 pt-14">POPULAR COLLECTIONS</h2>
+                <p>   
+                    <br>Women’s Shorts
+                    <br>Belts
+                    <br>Watches
+                    <br>Women’s Jeans
+                    <br>Formal Shoes
+                </p>
+            </div>
+            <div>
+                <h2 class="pb-4 pt-14">QUICK LINKS</h2>
+                <p>   
+                    <br>Home
+                    <br>Shop
+                    <br>Lookbook
+                    <br>About Us
+                    <br>Contact Us
+                
+                </p>
+            </div>
+        </footer>
+        <rights class="p-11 pt-8 flex justify-between text-black  dark:text-black dark:bg-slate-50">
+            <div>
+                <p>Copyrights &copy; 2023 BranStore Pro</p>
+            </div>
+            <div class="flex space-x-9 opacity-60 text-lg">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div>
+                <p>Powered by BrandStore Pro</p>
+            </div>
+        </rights>
+</body>
+</html>
