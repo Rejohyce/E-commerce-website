@@ -1,0 +1,169 @@
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Payment</title>
+                <link rel="stylesheet" href="css/style.css">
+                <link
+                rel="stylesheet"
+                href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+                integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+                crossorigin="anonymous"
+            />
+            </head>
+            <body class="min-h-screen bg-slate-100">
+                <section class="bg-black text-white bg-blend-darken">
+                    <main class="flex justify-between">
+                        <div>
+                            <img src="/image/site-logo-white-free-img.png" class="text-3xl m-9">
+                        </div>
+                        <nav class="flex justify-between">
+                            <ul class="flex justify-between align-middle font-bold space-x-9 m-10">
+                                <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                                    <a href="index.html">HOME</a>
+                                </li>
+                                <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                                    <a href="shop.html">SHOP</a>
+                                </li>
+                                    <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                                    <a href="lookbook.html">LOOKBOOK</a>
+                                </li>
+                                    <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                                    <a href="aboutus.html">ABOUT US</a>
+                                </li>
+                                <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                                        <a href="contactus.html">CONTACT US</a>
+                                    </li>
+                                    <li class="hover:text-blue-900 transition-all-0.5s ease-in-out">
+                                    <a href="#cart.html">🛒</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </main> 
+                    </section>
+                <payment class="">
+                    <div class="ml-10 mr-10 bg-white pt-20 mt-16">
+                       <p class="font-semibold text-3xl pl-16">PAYMENT METHOD</p> 
+                       <div class="pt-14">
+                        <div class="flex justify-between ml-16 mr-20">
+                            <label for="cre">
+                        <p><input type="checkbox" name="nip" class="outline-1 outline-orange-500"><span class="font-semibold  ml-4">Credit Card</span></p>
+                    </label>
+                        <div class=" flex space-x-5">
+                            <i class="fab fa-cc-visa text-4xl"></i>
+                            <i class="fab fa-cc-mastercard text-4xl"></i>
+                            <i class="fab fa-cc-amazon-pay text-4xl"></i>
+                        </div>
+                    </div>
+                       <card class="flex space-x-24 justify-center">
+                        <div class="pt-10 pl-16">
+                            <form action="">
+                                <label for="fname" class="bottom-4 opacity-60">CreditCard Name</label>
+                                <input type="text" id="fname" name="fname" placeholder="Mark Joe" required class="w-80 mb-8 h-12 rounded-md outline-none outline-slate-400 outline-1 block">
+                                <label for="num" class="bottom-4 opacity-60">Card Number</label>
+                                <input type="text" id="num" name="num" placeholder="345 4567 7890 1234" required class="w-80 mb-8 h-12 rounded-md outline-none outline-slate-400 outline-1 block">
+                                <div class="flex space-x-10">
+                                    <div>
+                                    <label for="expire" class="bottom-4 opacity-60">Expiry Date</label>
+                                <input type="date" id="expire" name="expire" placeholder="07/24" required class="w-44 mb-8 h-12 rounded-md outline-none outline-slate-400 outline-1 block">
+                            </div>
+                            <div>
+                                <label for="cvv" class="bottom-4 opacity-60">CVV Code</label>
+                            <input type="password" id="cvv" name="cvv" placeholder="234" required class="w-40 mb-8 h-12 rounded-md outline-none outline-slate-400 outline-1 block">
+                        </div>
+                                </div>
+                                <div class="">
+                                    <button class="text-md font-semibold text-white w-44 rounded-lg h-12 bg-slate-700 duration-150 transition-all hover:bg-black hover:text-white ease-in-out"><a href="">Submit</a></button>
+                                   </div>
+                            </form>
+                        </div>
+                        <img src="/image/visa.png" class="w-fit .h-12 mt-7">
+                       </card>
+                       <div class="pt-14">
+                        <p class="pb-8 text-2xl font-semibold ml-16 opacity-70">Or you can pay during delivey</p>
+                        <div class="ml-16">
+                            <label for="cre">
+                        <input type="checkbox" name="cre"><span class="font-semibold  ml-4 ">Payment During Delivery</span>
+                    </label>
+                    </div>
+                       </div>
+                    </div>
+                    <div class="ml-16 pt-14">
+                        <p class="text-blue-600 font-semibold ">Disclamer*</p>
+                        <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sit amet consectetur adipisicing</p> 
+                        <p class="text-sm">aliquam illo exein aspernatur fior</p>
+                    </div>
+                    </div>
+                </payment>
+                <footer class="bg-black text-white flex justify-between p-11 text-1xl dark:bg-black dark:text-white mt-16">
+                    <div>
+                    <img src="/image/site-logo-white-free-img.png" class="pt-14 dark:font-bold">
+                    <p>
+                    <br>ipsum dolor sit,
+                    <br>amet consectetur 
+                    <br>adipiscing elit. Ut elit 
+                    <br>tellus, luctus nec 
+                    <br>ullamcorper mattis, 
+                    <br>pulvinar dapibus leo.
+                    </p>
+                    </div>
+                    <div>
+                    <h2 class="pb-4 pt-14">SHOP COLLECTIONS</h2>
+                    <p>   
+                    <br>Men’s Jeans
+                    <br>Women’s Tops
+                    <br> Hoodies
+                    <br>Jackets
+                    <br>Shoes
+                    </p>
+                    </div>
+                    <div>
+                    <h2 class="pb-4 pt-14">LATEST COLLECTION</h2>
+                    <p>   
+                    <br>Bags
+                    <br>Accessories
+                    <br> Shorts
+                    <br>Wallets
+                    <br>Sunglasses
+                    </p>
+                    </div>
+                    <div>
+                    <h2 class="pb-4 pt-14">POPULAR COLLECTIONS</h2>
+                    <p>   
+                    <br>Women’s Shorts
+                    <br>Belts
+                    <br>Watches
+                    <br>Women’s Jeans
+                    <br>Formal Shoes
+                    </p>
+                    </div>
+                    <div>
+                    <h2 class="pb-4 pt-14">QUICK LINKS</h2>
+                    <p>   
+                    <br>Home
+                    <br>Shop
+                    <br>Lookbook
+                    <br>About Us
+                    <br>Contact Us
+        
+                    </p>
+                    </div>
+                    </footer>
+                    <rights class="p-11 pt-8 flex justify-between text-black  dark:text-black dark:bg-slate-50">
+                    <div>
+                    <p>Copyrights &copy; 2023 BranStore Pro</p>
+                    </div>
+                    <div class="flex space-x-9 opacity-60 text-lg">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                    </div>
+                    <div>
+                    <p>Pwered by BrandStore Pro</p>
+                    </div>
+                    </rights>
+            </body>
+            </html>
